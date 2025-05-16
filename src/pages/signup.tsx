@@ -1,5 +1,5 @@
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { collection, doc, getDoc, setDoc } from "firebase/firestore";
+import { collection, doc, setDoc } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import { FirebaseError } from "firebase/app";
 
